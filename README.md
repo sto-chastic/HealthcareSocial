@@ -1,5 +1,3 @@
-README.md
-
 Healthcare Social Portal
 
 Healthcare Social Portal is a PHP-based web application designed to facilitate seamless interaction between doctors and patients in a dedicated social network for healthcare. This platform enables doctors and patients to share information, schedule appointments, and help patients find the right specialists with ease.
