@@ -1,0 +1,344 @@
+/**
+
+				premium2 css page
+
+*/
+
+.wrapper{
+		top: 0px;
+		margin-left: 0px;
+		padding-left:0px;
+}
+	
+#map {
+	min-height:400px;
+	height: 100%; 
+}
+
+.gm-style-iw{
+	font-family: Coves-Bold;
+	font-size:12px;
+	color: #999;
+}
+.gm-style-iw b{
+	font-family: Coves-Bold;
+    font-weight: 100;
+    font-size: 14px;
+    color: #f38ead;
+}
+
+.gm-style-iw p{
+	font-family: Coves-Bold;
+    /* font-weight: 700; */
+    font-style: italic;
+    text-style: ;
+    margin: 0px;
+}
+
+
+#floating-panel {
+	display:none;
+	position: relative; 
+	top: 50px; 
+	left: 25%; 
+	z-index: 5; 
+	background-color: #fff; 
+	padding: 5px; 
+	border: 1px solid #999; 
+	text-align: center; 
+	font-family: 'Roboto','sans-serif'; 
+	line-height: 30px; 
+	padding-left: 10px; 
+}
+
+.location_info {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+}
+
+.location_data {
+    display: flex;
+    width: 20%;
+    max-width: 260px;
+    flex-direction: column;
+    justify-content: center
+ 	flex:2;
+    /* padding: 10px; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 108px;
+    /* padding-bottom: 65px; */
+}
+
+.location_data p{
+	font-family: Coves-Bold;
+    color: #777;
+    color: rgba(85, 85, 85, 0.93);
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 4px;
+	
+}
+.location_data input[type = text] {
+    color: rgba(241, 118, 155, 1);
+    text-align: center;
+    font-family: Coves-Bold;
+    height: 25px;
+    padding: 0px;
+    margin-bottom: 14px;
+    
+} 
+.location_data input::placeholder {
+     color: rgba(241, 118, 155, 0.50);
+    
+} 
+/*.location_data input:nth-of-type(1){
+	margin-top:25%;
+} */
+
+ #search_insurance_reg_div, #search_specialization_reg{
+	width: 32%;
+    /* top: 702px; */
+    max-height: 79px;
+    height: max-height;
+    /* border-top: none; */
+    position: absolute;
+    background-color: white;
+    border: 1px solid #999;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* max-width: 165px; */
+    /* min-width: 153px; */
+    border-top: none;
+	
+} 
+
+#premCityResultsBox{
+	width: 20%;
+    top: 385px;
+    position: absolute;
+    max-height: 130px;
+    height: max-height;
+    background-color: white;
+    border: 1px solid #999;
+    overflow-y: scroll;
+    border-top: none;
+	
+}
+#premCityResultsBox:empty {
+	display:none
+}
+.premiumCityResult {
+    padding-left: 6%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #9d9d9d;
+    font-family: Coves-Bold;
+}
+.premiumCityResultBox:hover {
+    color: rgba(243, 142, 173, 0.75);
+    background-color: #eee;
+}
+#prem_city_results{
+	position: absolute;
+    width:  12.3vw;
+    max-width: 240px;
+    background-color: #000;
+    box-shadow: 0px 5px 10px 0px #404041;
+    z-index: 10;
+    max-height: 80px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+
+.location_map {
+	flex:4;
+}
+#address {
+	/* display:none; */
+}
+.prem_ins input{
+	width: 80%;
+	margin: 2%;
+}
+#search_insurance_reg_div:empty, #search_specialization_reg:empty {
+	display:none;
+}
+
+.prem_app_cost input,input[type="text"]#search_text_input_insurance1{
+	width: 80%;
+	margin: 0;
+	color: rgba(241, 118, 155, 1);
+    text-align: center;
+    font-family: Coves-Bold;
+    height: 25px;
+    padding: 0px;
+    
+}
+
+.prem_app_cost input::placeholder,input[type="text"]#search_text_input_insurance1::placeholder {
+     color: rgba(241, 118, 155, 0.50);
+    
+} 
+
+.resultSympMedDisplay {
+    padding-left: 6%;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    color: #7fd3f6;
+    margin-left: 0px;
+    font-family: Coves-Bold;
+}
+.resultSympMedDisplay:hover {
+    color: rgba(243, 142, 173, 0.75);
+    background-color: #eee;
+}
+
+#geocode{
+    border: 1px solid #7fd3f6;
+    font-size: 12px;
+    display: list-item;
+    padding: 1px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Montserrat-Light;
+    /* right: 1%; */
+    color: white;
+    background-color: #7fd3f6;
+    margin-top: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 30px;
+    height: 30px;
+}
+#geocode:hover {
+    text-decoration: none;
+    color: #7fd3f6;
+    background-color: white;
+}
+
+#premium2_button_doctor{
+   	border: 1px solid #f38ead;
+    font-size: 13px;
+    display: list-item;
+    padding: 1px;
+    text-align: center;
+    font-weight: 700;
+    /* width: 100%; */
+    text-transform: uppercase;
+    font-family: Montserrat-Light;
+    /* right: 1%; */
+    color: #f38ead;
+    background-color: white;
+    margin: 0 auto;
+    /* margin-top: 26px; */
+    margin-bottom: 43px;
+    padding-left: 5%;
+    padding-right: 5%;
+    top: 18px;
+    height: 29px;
+    position: relative;
+   
+}
+#premium2_button_doctor:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #f38ead;
+}
+
+#signup_pg2 {
+   background-color: white;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   display: grid;
+    
+}
+
+
+#signup_pg2 h3 {
+   	text-align: left;
+    line-height: 32px;
+    font-family: 'Coves-Bold';
+    font-size: 17px;
+    position: absolute;
+    padding-bottom: 9px;
+    text-transform: uppercase;
+    line-height: 20px;
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-top: 15px;
+    width: 28%;
+    color: #f38ead;
+}
+
+
+
+.map_locator{
+	height:100%;
+}
+.prem_app_cost {
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    float: right;
+     padding-bottom: 34px;
+}
+.prem_ins {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    float: left;
+    padding-bottom: 34px;
+    border-right: 1px solid #eee;
+}
+.prem_ins b,.prem_app_cost b{
+	font-family: Coves-Bold;
+    color: #777;
+    font-size: 13px;
+    text-transform: none;
+}
+.prem_ins h2, .prem_app_cost h2 {
+    text-align: left;
+    line-height: 32px;
+    font-family: 'Coves-Bold';
+    line-height: 19px;
+    /* font-weight: 700; */
+    text-transform: inherit;
+    color: #7fd3f6;
+    /* padding-left: 5%; */
+    /* padding-right: 2%; */
+    padding-top: 15px;
+    width: 100%;
+    font-size: 15px;
+
+}
+
+#reg_adcountry {
+        background-color: white;
+    font-family: Coves-Bold;
+    color: #f38ead;
+    font-size: 13px;
+    right: 0;
+    /* float: left; */
+    width: 100%;
+    top: 0px;
+    text-align: center;
+    position: relative;
+    border-radius: 0px;
+    border-color: #999;
+    padding-top: 3px;
+    padding-left: 6%;
+    direction: unset;
+    text-align-last: center;
+    /* line-height: 47px; */
+    display: inline-flex;
+    /* margin-top: 1vh; */
+}

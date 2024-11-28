@@ -1,0 +1,12 @@
+#Comment two following lines for deployment
+
+#php_flag magic_quotes_gpc off
+#php_flag magic_quotes_gpc Off
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9_-]+)$ profile.php?profile_username=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ profile.php?profile_username=$1
+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+php_value post_max_size 5M
+php_value upload_max_filesize 5M
