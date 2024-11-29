@@ -1159,7 +1159,7 @@ EOS;
     	<div class="ds_right_column">
     		<div class="map" id="map">
     			<script
-    				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChTdZYhzn_sWxkG0PhhZ_Z-9NZ5uWu_Is&callback=myMap"
+    				src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"
     				async defer>
         			</script>
     		</div>
