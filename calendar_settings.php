@@ -2000,7 +2000,7 @@ EOS;
     				</div>
     			</div>
     			<script async defer 
-        	    				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChTdZYhzn_sWxkG0PhhZ_Z-9NZ5uWu_Is&callback=initLocatorMap">
+        	    				src="https://maps.googleapis.com/maps/api/js?key=&callback=initLocatorMap">
     			</script>
     		</div>
 	</div>
